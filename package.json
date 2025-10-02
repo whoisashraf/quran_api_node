@@ -1,13 +1,23 @@
 {
-  "name": "quran_api_v2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "quran-api-nodejs",
+  "version": "2.0.0",
+  "description": "Quran API with Arabic text and metadata",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.17.1"
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "compression": "^1.7.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": ["quran", "api", "islamic", "arabic"],
+  "author": "Your Name",
+  "license": "MIT"
 }
