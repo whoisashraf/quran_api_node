@@ -8,16 +8,21 @@
     "dev": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
+    "compression": "^1.8.1",
     "cors": "^2.8.5",
-    "helmet": "^7.1.0",
-    "express-rate-limit": "^7.1.5",
-    "compression": "^1.7.4"
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.1",
+    "helmet": "^7.2.0"
   },
   "engines": {
     "node": ">=14.0.0"
   },
-  "keywords": ["quran", "api", "islamic", "arabic"],
+  "keywords": [
+    "quran",
+    "api",
+    "islamic",
+    "arabic"
+  ],
   "author": "Your Name",
   "license": "MIT"
 }
