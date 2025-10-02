@@ -344,49 +344,49 @@ app.get('/docs', docsLimiter, (req, res) => {
     <div class="endpoint">
         <h3>GET /surahs</h3>
         <p>List all surahs (basic info)</p>
-        <code>https://your-api.com/surahs</code>
+        <code>https://qapi-eight.vercel.app/surahs</code>
     </div>
     
     <div class="endpoint">
         <h3>GET /surahs/{number}</h3>
         <p>Get specific surah with all ayahs</p>
-        <code>https://your-api.com/surahs/1</code>
+        <code>https://qapi-eight.vercel.app/surahs/1</code>
     </div>
     
     <div class="endpoint">
         <h3>GET /surahs/{number}/ayahs/{ayah_number}</h3>
         <p>Get specific ayah within a surah</p>
-        <code>https://your-api.com/surahs/1/ayahs/1</code>
+        <code>https://qapi-eight.vercel.app/surahs/1/ayahs/1</code>
     </div>
     
     <div class="endpoint">
         <h3>GET /ayahs/{surah:ayah}</h3>
         <p>Get ayah by ID</p>
-        <code>https://your-api.com/ayahs/1:1</code>
+        <code>https://qapi-eight.vercel.app/ayahs/1:1</code>
     </div>
     
     <div class="endpoint">
         <h3>GET /juz/{number}</h3>
         <p>Get all ayahs in a juz (1-30)</p>
-        <code>https://your-api.com/juz/1</code>
+        <code>https://qapi-eight.vercel.app/juz/1</code>
     </div>
     
     <div class="endpoint">
         <h3>GET /pages/{number}</h3>
         <p>Get all ayahs on a page (1-604)</p>
-        <code>https://your-api.com/pages/1</code>
+        <code>https://qapi-eight.vercel.app/pages/1</code>
     </div>
     
     <div class="endpoint">
         <h3>GET /font/info</h3>
         <p>Get font metadata and usage instructions</p>
-        <code>https://your-api.com/font/info</code>
+        <code>https://qapi-eight.vercel.app/font/info</code>
     </div>
     
     <div class="endpoint">
         <h3>GET /font/download</h3>
         <p>Download the Quranic Arabic font file</p>
-        <code>https://your-api.com/font/download</code>
+        <code>https://qapi-eight.vercel.app/font/download</code>
     </div>
     
     <h2>Rate Limits</h2>
